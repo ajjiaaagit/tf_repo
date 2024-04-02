@@ -16,6 +16,7 @@ resource "aws_instance" "tf-repo-inst" {
 	
 	tags= {
 	Name= "tf-repo-inst"
+	Env= "pro-env"
 }
 }
 
